@@ -18,7 +18,7 @@ if __name__ == "__main__":
     time = datetime.now()
     dt_string = time.strftime("%d-%m-%Y_%H.%M.%S")
 
-    data_file = "data.csv" 
+    data_file = "data.csv"
     credit = pd.read_csv(data_file, sep=',',engine="python") #To download go to https://github.com/Giskard-AI/giskard-client/tree/main/sample_data/classification
 
     # Declare the type of each column in the dataset(example: category, numeric, text)
