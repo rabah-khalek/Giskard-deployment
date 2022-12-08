@@ -1,2 +1,2 @@
 # Giskard-deployment
-Using Giskard's test in Github actions to deploy an AI model.
+Example of how to deploy an AI model that passes Giskard's tests
