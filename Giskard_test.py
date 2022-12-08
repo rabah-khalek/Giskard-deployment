@@ -48,7 +48,7 @@ if __name__ == "__main__":
     feature_types = {i:column_types[i] for i in column_types if i!='default'}
 
     url = "http://dev.giskard.ai" #if Giskard is installed locally (for installation, see: https://docs.giskard.ai/start/guides/installation)
-    token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInRva2VuX3R5cGUiOiJBUEkiLCJhdXRoIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY3ODE3OTgzN30.0xvV5ZYeUOgE085Tggeirhbuny6RqosrpKW__VEKIqc" #os.environ['API_KEY'] #you can generate your API token in the Admin tab of the Giskard application (for installation, see: https://docs.giskard.ai/start/guides/installation)
+    token = os.environ['API_KEY'] #you can generate your API token in the Admin tab of the Giskard application (for installation, see: https://docs.giskard.ai/start/guides/installation)
 
     client = GiskardClient(url, token)
 
