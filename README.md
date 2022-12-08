@@ -12,3 +12,5 @@ The deployment happens according to three steps:
     - `logistic_regression_model.pkl`: a pickle of the verified model.
     - `test_data.zip`: a pandas dataframe that was used to verify the model.
     - `Giskard_tests.json`: a summary of all the tests and metrics that were run by Giskard.
+    
+<img width="950" alt="Screenshot 2022-12-08 at 15 54 18" src="https://user-images.githubusercontent.com/32709181/206478480-d3831099-ca5b-4a95-9282-598f6a433639.png">
