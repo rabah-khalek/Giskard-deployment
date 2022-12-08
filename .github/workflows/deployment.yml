@@ -1,5 +1,11 @@
 name: Deployment workflow
-on: [push]
+
+on:
+  push:
+    paths:
+      - 'train.py'
+      - 'Giskard_test.py'
+      - '.github/workflows/deployment.yml'
 
 jobs:
   Training:
