@@ -7,6 +7,12 @@ on:
       - 'Giskard_test.py'
       - '.github/workflows/deployment.yml'
 
+  pull_request:
+    paths:
+      - 'train.py'
+      - 'Giskard_test.py'
+      - '.github/workflows/deployment.yml'
+      
 jobs:
   Training:
     runs-on: ubuntu-latest
